@@ -1,0 +1,34 @@
+  <script src="Post.js"></script>
+<form method="post" action="Controller.php" name="filter" class="InputForm">
+
+   
+                <input type="text" class="name" name="name"
+                       value=""/>
+                <label>Name</label>
+          
+            <input type="text" class="Theme" name="theme"
+                       value=""/>
+                <label>Theme</label>
+
+    <input type="text" class="data" 
+                       value=""/>
+                <label>Data</label>
+  
+
+
+
+        </form>
+
+<table class="table">
+
+
+    <thead>
+    <tr>
+        <th><a href="javascript:Sort('Sortidd')"><i class="fas fa-sort"></i> ID</a> </th>
+        <th> <a  href="javascript:Sort('SortTheme')"><i class="fas fa-sort"></i> Тема сообщения</a> </th>
+        <th ><a href="javascript:Sort('SortData')"><i class="fas fa-sort"></i> Дата</a> </th>
+        <th ><a  href="javascript:Sort('SortStatus')"><i class="fas fa-sort"></i> Статус </a></th>
+        <th  ><a  href="javascript:Sort(' ')">Подробно </a></th>
+    </tr>
+    </thead>
+ <tbody></tbody>
